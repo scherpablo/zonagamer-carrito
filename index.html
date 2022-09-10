@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <img src="img/logo.jpg" id="logo">
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbody"></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Más de 20.000 articulos en línea <br>
+                        Explora nuestras categorías</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Asesoramiento Especializado <br>
+                        Servicio de Post Venta</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Técnologias de Ultima Generación <br>
+                        Garantia Oficial de nuestros productos</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Listado de Productos</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/audio01.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Auricular Gamer B-3510</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$18.000 <span class="u-pull-right "> Final $17.100</span></p>
+                        <p>5% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/audio02.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Auricular Energy Bluetooth</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$26.000 <span class="u-pull-right "> Final $20.800</span></p>
+                        <p>20% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/audio03.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Auricular Gamer HP-8011um</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$20.000 <span class="u-pull-right "> Final $18.000</span></p>
+                        <p>10% of efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Row 1-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/cooler01.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Coolers RGB - Combo x3 CPU</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$25.000 <span class="u-pull-right "> Final $22.500</span></p>
+                        <p>10% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/cooler02.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Cooler CPU AbkonCore T404</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$18.500 <span class="u-pull-right "> Final $17.575</span></p>
+                        <p>5% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/cooler03.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Cooler CPU SE-914-XT</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$21.200 <span class="u-pull-right "> Final $19.080</span></p>
+                        <p>10% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Row 2-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mother01.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Motherboard MSI-A520 Pro</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right "> Final $13.500</span></p>
+                        <p>10% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mother02.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Motherboard Elite Group A320</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$8.000 <span class="u-pull-right "> Final $7.600</span></p>
+                        <p>5% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mother03.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Motherboard H410M - V3 Pro</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$14.000 <span class="u-pull-right "> Final $13.300</span></p>
+                        <p>5% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Row 3-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mouse01.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Mouse Gamer Genius - GX</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2.000 <span class="u-pull-right "> Final $1.800</span></p>
+                        <p>10% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="10">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mouse02.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Mouse Gamer Genius - GX200</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$3.000 <span class="u-pull-right "> Final $2.850</span></p>
+                        <p>5% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="11">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/mouse03.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Mouse Gamer Logitech - G300S</h4>
+                        <p>Zona Gamer</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$3.900 <span class="u-pull-right "> Final $3.510</span></p>
+                        <p>10% off efectivo</p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                            data-id="12">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Row 4-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlace" href="#">Para tu Negocio</a>
+                        <a class="enlace" href="#">Conviertete en Vendedor</a>
+                        <a class="enlace" href="#">Catalogo Completo</a>
+                        <a class="enlace" href="#">Soporte</a>
+                        <a class="enlace" href="#">Temas</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="#">¿Quienes Somos?</a>
+                        <a class="enlace" href="#">Empleo</a>
+                        <a class="enlace" href="#">Blog</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
